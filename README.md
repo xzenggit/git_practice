@@ -58,3 +58,10 @@ remote:
 To https://github.com/xxx/git_practice.git
  * [new branch]      exp1 -> exp1
 ```
+
+* Check the git status
+```bash
+$ git status
+On branch exp1
+nothing to commit, working tree clean
+```
