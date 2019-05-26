@@ -28,3 +28,11 @@ $ git branch
 ```
 
 After we make some changes under the new branch, we can push it to remote repo, or merge with master branch locally.
+
+Make some changes and commit to `exp1`.
+```bash
+$ git add .
+$ git commit -m "new changes"
+[exp1 2983e7d] new changes
+ 1 file changed, 28 insertions(+)
+```
