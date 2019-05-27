@@ -75,6 +75,12 @@ $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 ```
+
+* Make sure local master have the latest code
+```bash
+$ git pull origin master
+```
+
 * Merge branches
 ```bash
 $ git merge exp1
@@ -99,10 +105,6 @@ To https://github.com/xxx/git_practice.git
    535d021..69a5279  master -> master
 ```
 
-If the master branch has latest code, we can always pull it to the `exp1` branches
-```bash
-$ git pull origin master
-```
 
 ### Summary
 
